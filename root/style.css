@@ -121,3 +121,7 @@ aside p {
   line-height: 22px;
   padding: 0 20px;
 }
+
+.aside_list ul li {
+  display: block;
+}
