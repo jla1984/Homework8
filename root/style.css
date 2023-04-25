@@ -278,3 +278,9 @@ td:nth-child(2) {
 .margin_image {
     padding-left: 20px;
 }
+
+footer {
+    text-align: center;
+    border: solid 10px #ffcd9b;
+    box-shadow: inset 1px;
+}
