@@ -1,22 +1,23 @@
 body {
   width: 960px;
   margin: 0 auto;
-  background-color: #9bcdff;
+  background-color: #005b96;
   font-size: 20px;
   font-family: Times, serif;
-  color: #f76011;
+  color: #03396c;
+  text-shadow: 1px 1px 0 #011f4b;
 }
 
 header[role="banner"] {
   margin-top: 20px;
   height: 135px;
-  border: solid 10px white;
+  border: solid 10px #b3cde0;
 }
 
 h1 {
   font-size: 60px;
   text-align: center;
-  color: #ff4ba0;
+  color: #011f4b;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
   margin: 5px 0 0 0;
 }
@@ -44,17 +45,17 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   padding: 5px 20px;
-  background: #ffcd9b;
-  color: #ffffff;
+  background: #6497b1;
+  color: #03396c;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
-  border: solid 4px white;
+  border: solid 4px #b3cde0;
 }
 
 .article_one {
   position: relative;
   top: 35px;
-  background-color: #ffcd9b;
-  border: double 10px white;
+  background-color: #6497b1;
+  border: double 10px #b3cde0;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
   height: 1600px;
   width: 600px;
@@ -63,8 +64,8 @@ nav ul li a {
 .article_two {
   position: relative;
   top: 35px;
-  background-color: #ffcd9b;
-  border: double 10px white;
+  background-color: #6497b1;
+  border: double 10px #b3cde0;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
   height: 1855px;
   width: 600px;
@@ -73,15 +74,15 @@ nav ul li a {
 .article_three {
   position: relative;
   top: 35px;
-  background-color: #ffcd9b;
-  border: double 10px white;
+  background-color: #6497b1;
+  border: double 10px #b3cde0;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
   height: 930px;
   width: 600px;
 }
 
 article h2 {
-  color: #ff4ba0;
+  color: #011f4b;
   font-size: 24px;
   line-height: 14px;
   margin: 20px 0 0 0;
@@ -89,21 +90,21 @@ article h2 {
 }
 
 article p {
-  color: rgba(0, 0, 0, .5);
+  color: #03396c;
   font-size: 17px;
   line-height: 22px;
   padding: 2px 20px;
 }
 
 section {
-  background-color: #9bcdff;
-  border: double 4px white;
+  background-color: #005b96;
+  border: double 4px #b3cde0;
   padding: 0px;
   margin: 10px 10px;
 }
 
 section h3 {
-  color: #ff4ba0;
+  color: #011f4b;
   font-size: 22px;
   line-height: 14px;
   margin: 10px 0 0 0;
@@ -112,7 +113,7 @@ section h3 {
 }
 
 .ml_section h3 {
-  color: #ff4ba0;
+  color: #011f4b;
   font-size: 22px;
   line-height: 14px;
   margin: 10px 0 20px 0;
@@ -122,7 +123,7 @@ section h3 {
 }
 
 .team_section h3 {
-  color: #ff4ba0;
+  color: #011f4b;
   font-size: 22px;
   line-height: 14px;
   margin: 10px 0 20px 0;
@@ -132,14 +133,14 @@ section h3 {
 }
 
 section p {
-  color: #ffffff;
+  color: #03396c;
   font-size: 17px;
   font-style: italic;
   line-height: 22px;
 }
 
 ol {
-  color: #ffffff;
+  color: #03396c;
   font-size: 17px;
   font-style: italic;
   line-height: 22px;
@@ -149,36 +150,33 @@ ol {
   position: relative;
   top: -1585px;
   left: 640px;
-  background-color: #ffcd9b;
-  border: solid 8px white;
+  background-color: #6497b1;
+  border: solid 8px #b3cde0;
   height: 580px;
   width: 302px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
-  border-radius: 10px;
 }
 
 .aside_two {
   position: relative;
   top: -1840px;
   left: 640px;
-  background-color: #ffcd9b;
-  border: solid 8px white;
+  background-color: #6497b1;
+  border: solid 8px #b3cde0;
   height: 430px;
   width: 302px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
-  border-radius: 10px;
 }
 
 .aside_three {
   position: relative;
   top: -915px;
   left: 640px;
-  background-color: #ffcd9b;
-  border: solid 8px white;
+  background-color: #6497b1;
+  border: solid 8px #b3cde0;
   height: 542px;
   width: 302px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
-  border-radius: 10px;
 }
 
 aside h3 {
@@ -281,21 +279,21 @@ td:nth-child(2) {
 
 .footer_one {
     text-align: center;
-    border: solid 10px #ffcd9b;
+    border: solid 10px #6497b1;
     box-shadow: inset 1px;
     margin-top: -523px;
 }
 
 .footer_two {
     text-align: center;
-    border: solid 10px #ffcd9b;
+    border: solid 10px #6497b1;
     box-shadow: inset 1px;
     margin-top: -375px;
 }
 
 .footer_three {
     text-align: center;
-    border: solid 10px #ffcd9b;
+    border: solid 10px #6497b1;
     box-shadow: inset 1px;
     margin-top: -489px;
 }
