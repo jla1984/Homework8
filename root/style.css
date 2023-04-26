@@ -40,6 +40,11 @@ nav ul li {
   width: 95px;
   margin: 0 55px 0 5px;
   white-space: nowrap;
+  transition: transform 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+  transform: translateY(-10px); 
 }
 
 nav ul li a {
@@ -198,6 +203,7 @@ aside p {
   top: 10%;
   left: 37%;
   transform: translate(-37%, -10%);
+  transition: transform 0.3s ease-in-out;
 }
 
 .a2 {
@@ -205,6 +211,7 @@ aside p {
   top: 50%;
   left: 45%;
   transform: translate(-45%, -50%);
+  transition: transform 0.3s ease-in-out;
 }
 
 .a3 {
@@ -212,6 +219,28 @@ aside p {
   bottom: 10%;
   left: 45%;
   transform: translate(-45%, -10%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.a1:hover {
+  position: absolute;
+  top: 10%;
+  left: 37%;  
+  transform: translate(-10px, -10%); 
+}
+
+.a2:hover {
+  position: absolute;
+  top: 50%;
+  left: 45%;  
+  transform: translate(-10px, -50%); 
+}
+
+.a3:hover {
+  position: absolute;
+  bottom: 10%;
+  left: 45%;  
+  transform: translate(-10px, -10%); 
 }
 
 iframe {
