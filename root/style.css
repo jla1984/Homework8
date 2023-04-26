@@ -279,8 +279,23 @@ td:nth-child(2) {
     padding-left: 20px;
 }
 
-footer {
+.footer_one {
     text-align: center;
     border: solid 10px #ffcd9b;
     box-shadow: inset 1px;
+    margin-top: -523px;
+}
+
+.footer_two {
+    text-align: center;
+    border: solid 10px #ffcd9b;
+    box-shadow: inset 1px;
+    margin-top: -375px;
+}
+
+.footer_three {
+    text-align: center;
+    border: solid 10px #ffcd9b;
+    box-shadow: inset 1px;
+    margin-top: -489px;
 }
