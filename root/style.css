@@ -160,6 +160,7 @@ ol {
   height: 580px;
   width: 302px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  border-radius: 15px;
 }
 
 .aside_two {
@@ -171,6 +172,7 @@ ol {
   height: 430px;
   width: 302px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  border-radius: 15px;
 }
 
 .aside_three {
@@ -182,6 +184,7 @@ ol {
   height: 542px;
   width: 302px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  border-radius: 15px;
 }
 
 aside h3 {
